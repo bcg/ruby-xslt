@@ -21,6 +21,8 @@
 #ifndef __RUBY_XSLT_H__
 #define __RUBY_XSLT_H__
 
+#include <libxml/debugXML.h>
+
 #include <ruby.h>
 #ifdef RUBY_1_8
 	#include <rubyio.h>
@@ -31,7 +33,6 @@
 #include <string.h>
 
 #include <libxml/xmlmemory.h>
-#include <libxml/debugXML.h>
 #include <libxml/HTMLtree.h>
 #include <libxml/xmlIO.h>
 #include <libxml/xinclude.h>
